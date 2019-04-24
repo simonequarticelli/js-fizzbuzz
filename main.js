@@ -7,14 +7,14 @@ for (var i = 1; i <= 100; i++) {
 //==0 (nella funzione % 0 è il resto)
 // && si devono verificare entrambe le condizioni
   if(i % 3==0 && i % 5==0){
-    console.log('fizzbizz');
-    document.getElementById('risultato').innerHTML+='<br/> fizzbizz';
+    console.log('FizzBuzz');
+    document.getElementById('risultato').innerHTML+='<br/> FizzBuzz';
   } else if(i % 3==0){
-    console.log('fizz');
-    document.getElementById('risultato').innerHTML+='<br/> fizz';
+    console.log('Fizz');
+    document.getElementById('risultato').innerHTML+='<br/> Fizz';
   } else if(i % 5==0){
-    console.log('bizz');
-    document.getElementById('risultato').innerHTML+='<br/> bizz';
+    console.log('Buzz');
+    document.getElementById('risultato').innerHTML+='<br/> Buzz';
   } else{
     console.log(i);
     document.getElementById('risultato').innerHTML+='<br/>'+ i;
